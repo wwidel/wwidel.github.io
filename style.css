@@ -146,6 +146,8 @@ h2 {
 
 .pub-title {
   display: block;
+  font-family: var(--serif);
+  font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.4;
 }
@@ -166,8 +168,10 @@ h2 {
 }
 
 .me {
-  color: var(--text);
-  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--faint);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .pub-venue em {
